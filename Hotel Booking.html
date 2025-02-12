@@ -1,0 +1,108 @@
+<html>
+    <head>  
+        <title>
+        Bangalore Heritage (booking)
+        </title>
+        <link rel="stylesheet" href="Main CSS.css">
+    </head>   
+    <body>
+        <style>
+            body {
+                font-family: "Trebuchet MS", sans-serif;
+                color: white;
+            }
+    
+            form {
+                background-color: rgba(55, 66, 89, 0.95);
+                border-radius: 10px;
+                padding: 20px;
+                margin: 20px auto;
+                width: 50%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: left;
+            }
+    
+            form label {
+                display: block;
+                margin: 10px 0 5px;
+            }
+    
+            form input, form select, form button {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+    
+            form input, form select {
+                background-color: #606676;
+                color: #ffffff;
+            }
+    
+            form button {
+                background-color: #AC87C5;
+                color: white;
+                font-weight: bold;
+            }
+    
+            form button:hover {
+                background-color: #789DBC;
+            }
+        </style>
+    
+        <ul>
+            <li><a href ="Bangalore Website.html">Home</a></li>
+            <li><a href ="Heritage.html">Heritage</a></li>
+            <li><a href ="Hotel Booking.html">Hotel Booking</a></li>
+            <li><a href ="Gallery.html">Gallery</a></li>
+            <li class="logo-li"><img src="logo.webp"></li>
+        </ul>
+
+        <form action="#" method="post">
+            <h2>Hotel Booking Form</h2>
+    
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" >
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+    
+            <label for="price">Price Range (INR):</label>
+            <select id="price" name="price">
+                <option value="">Select price range</option>
+                <option value="2000">2000 INR</option>
+                <option value="4000">4000 INR</option>
+                <option value="6000">6000 INR</option>
+                <option value="8000">8000 INR</option>
+                <option value="10000">10000 INR</option>
+            </select>
+    
+            <label for="hotel">Choose a Hotel:</label>
+            <select id="hotel" name="hotel">
+                <option value="">Select a hotel</option>
+                <option value="hotel1">Hotel Shanti Nivas</option>
+                <option value="hotel2">The Royal Peacock Inn</option>
+                <option value="hotel3">Global Horizons Hotel</option>
+                <option value="hotel4">Eterna Luxe Suites</option>
+                <option value="hotel5">Vista Maris Resort</option>
+            </select>
+
+    
+            <button type="submit">Submit</button>
+        </form>
+    
+        <br><br>
+        <div class = "text-box">
+            <p>
+                We'll email you with confirmation of your room booking soon!
+            </p>
+        </div>
+    
+    </body>
+    
+</html>
